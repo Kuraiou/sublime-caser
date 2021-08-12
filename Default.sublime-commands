@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "Caser: Downcase",
+        "command": "caser_downcase"
+    },
+    {
+        "caption": "Caser: Upcase",
+        "command": "caser_upcase"
+    },
+    {
+        "caption": "Caser: CamelCase",
+        "command": "caser_camel_case"
+    },
+    {
+        "caption": "Caser: snake_case",
+        "command": "caser_snake_case"
+    },
+    {
+        "caption": "Caser: Titleize Words",
+        "command": "caser_titleize"
+    },
+]

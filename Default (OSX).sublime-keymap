@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["ctrl+c", "ctrl+d"],
+        "command": "caser_downcase"
+    },
+    {
+        "keys": ["ctrl+c", "ctrl+u"],
+        "command": "caser_upcase"
+    },
+    {
+        "keys": ["ctrl+c", "ctrl+t"],
+        "command": "caser_titleize"
+    },
+    {
+        "keys": ["ctrl+c", "ctrl+s"],
+        "command": "caser_snake_case"
+    },
+    {
+        "keys": ["ctrl+c", "ctrl+c"],
+        "command": "caser_camel_case"
+    },
+]
