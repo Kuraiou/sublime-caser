@@ -5,9 +5,14 @@ import types
 from . import modifiers
 
 class CaserCommand(sublime_plugin.TextCommand):
-    def modify_regions(self, edit, modifier):
+    def modify_regions(self, edit, modifier, omit_comments = False):
         regions = self.view.sel()
         use_whole_file =  modifiers.SETTINGS.get("use_entire_file_if_no_selection", True)
+
+        if modifiers.SETTINGS.get("omit_comments") or omit_comments:
+            comment_regions = self.view.find_by_selector("comment")
+            for region in comment_regions: # here is another_comment
+                regions.subtract(region) # here is a CamelCaseComment
 
         selections = []
         for region in regions:
@@ -22,7 +27,7 @@ class CaserCommand(sublime_plugin.TextCommand):
 
             self.view.replace(edit, selection, modified_str)
 
-        sublime.status_message('Casing changed')
+        sublime.status_message('Finished Changing Cases.')
 
 class CaserDowncaseCommand(CaserCommand):
     def run(self, edit):

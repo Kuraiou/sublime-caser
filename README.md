@@ -13,7 +13,7 @@ Installation
     * select "Sublime Caser"
 
 Keyboard Shortcuts:
---------------------------------------------------------------
+-------------------
 
 -   Linux: <kbd>ctrl+c,ctrl+[COMMAND]</kbd>
 -   Windows: <kbd>ctrl+c,ctrl+[COMMAND]</kbd>
@@ -29,4 +29,9 @@ Commands:
 -   `w`: split into words -- splits the snake_separator (`_`) into multiple words
 
 If selection is empty and configuration entry
-**use_entire_file_if_no_selection** is true, tries to prettify whole file.
+**use_entire_file_if_no_selection** is true, tries to change whole file.
+
+Extra Settings:
+---------------
+
+* `omit_comments` - if set, comment blocks will not be modified.
