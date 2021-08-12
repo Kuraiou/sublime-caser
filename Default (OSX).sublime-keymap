@@ -19,4 +19,8 @@
         "keys": ["ctrl+c", "ctrl+c"],
         "command": "caser_camel_case"
     },
+    {
+        "keys": ["ctrl+c", "ctrl+w"],
+        "command": "caser_word"
+    },
 ]

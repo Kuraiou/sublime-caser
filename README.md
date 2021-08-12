@@ -21,11 +21,12 @@ Keyboard Shortcuts:
 
 Commands:
 
--   s: snake_case
--   c: camel_case
--   d: downcase
--   up: upcase
--   t: title (capitalize first letter of each word)
+-   `s`: snake_case
+-   `c`: CamelCase
+-   `d`: downcase
+-   `u`: UPCASE
+-   `t`: Capitalize Each Word (Titleize)
+-   `w`: split into words -- splits the snake_separator (`_`) into multiple words
 
 If selection is empty and configuration entry
 **use_entire_file_if_no_selection** is true, tries to prettify whole file.

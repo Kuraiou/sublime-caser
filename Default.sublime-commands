@@ -19,4 +19,8 @@
         "caption": "Caser: Titleize Words",
         "command": "caser_titleize"
     },
+    {
+        "caption": "Caser: Separate snake_case into words",
+        "command": "caser_word"
+    },
 ]
