@@ -7,8 +7,10 @@ Case-changing tools for Sublime Text 2 & 3
 Installation 
 -------------
 
-TBD
-
+1. add the repository to your package control via "Package Control: Add Repository"
+    * enter "https://github.com/kuraiou/sublime-caser"
+2. install the package via "Package Control: Install Package'
+    * select "Sublime Caser"
 
 Keyboard Shortcuts:
 --------------------------------------------------------------
