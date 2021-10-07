@@ -31,7 +31,10 @@ Commands:
 If selection is empty and configuration entry
 **use_entire_file_if_no_selection** is true, tries to change whole file.
 
-Extra Settings:
----------------
+Settings:
+---------
 
+* `use_entire_file_if_no_selection` - if set, selecting no regions is the same as selecting the whole file.
 * `omit_comments` - if set, comment blocks will not be modified.
+* `word_separator` - for "split into words". defaults to ' '
+* `snake_separator` for snake_case and split into words. defaults to '_'
